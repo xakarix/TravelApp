@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="TravelApp.NotePage"
+             Title="NotePage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#3A3A3A">
+   <Grid RowSpacing="40">
+       <Grid.RowDefinitions >
+            <RowDefinition Height="100"/>
+           <RowDefinition Height="Auto"/>
+           <RowDefinition Height="450"/>
+
+
+       </Grid.RowDefinitions>
+       <Label x:Name="Country"  FontSize="Title" HorizontalOptions="Center" VerticalOptions="End" Grid.Row="0" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="#E33780" TextTransform="Uppercase"/>
+
+       <Rectangle HeightRequest="3" Fill="#848484" MaximumWidthRequest="320" Grid.Row="1" />
+
+       <Frame BackgroundColor ="#565656" Grid.Row="2" HorizontalOptions="Center" WidthRequest="280">
+           <StackLayout>
+                <Grid RowSpacing="15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="240"/>
+                        <RowDefinition Height="60"/>
+
+                    </Grid.RowDefinitions>
+                    
+                        <Frame Background="#3A3A3A" MaximumHeightRequest="60" MaximumWidthRequest="255" HorizontalOptions="Center">
+                            <Grid ColumnSpacing="15" HorizontalOptions="Center">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="90"/>
+                                    <ColumnDefinition Width="90"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="icon.png"
+                                       Grid.Column="0"
+                                       HorizontalOptions="Center"/>
+                                <DatePicker x:Name="startDatePicker"
+                                            DateSelected="OnStartDateSelected"
+                                            TextColor="#E33780"
+                                            Format="dd/MM/yyyy"
+                                            HorizontalOptions="Center"
+                                            Grid.Row="0"
+                                            Grid.Column="1">
+
+                                            <DatePicker.FontAttributes>
+                                                <OnPlatform x:TypeArguments="FontAttributes">
+
+                                                    <On Platform="Android" Value="Bold"/>
+                                                    <On Platform="iOS" Value="Bold"/>
+
+                                                </OnPlatform>
+
+                                            </DatePicker.FontAttributes>
+
+                                </DatePicker>
+
+   
+                                <DatePicker x:Name="endDatePicker"
+                                            DateSelected="OnEndDateSelected"
+                                            TextColor="#E33780"
+                                            Format="dd/MM/yyyy"
+                                            HorizontalOptions="Center"
+                                            Grid.Row="0"
+                                            Grid.Column="2">
+
+                                            <DatePicker.FontAttributes>
+                                                <OnPlatform x:TypeArguments="FontAttributes">
+
+                                                    <On Platform="Android" Value="Bold"/>
+                                                    <On Platform="iOS" Value="Bold"/>
+
+                                                </OnPlatform>
+
+                                            </DatePicker.FontAttributes>
+
+                                </DatePicker>
+
+                            </Grid>
+
+                        </Frame>
+
+                    <Frame Background="#969696" Grid.Row="1" Grid.ColumnSpan="3" HasShadow="True">
+
+                        <Entry x:Name="Note"
+                                Text="{Binding LabelText, Mode=TwoWay}"
+                                VerticalTextAlignment="Start"
+                                TextChanged="Note_TextChanged"
+                                TextColor="#3A3A3A"/>
+
+                    </Frame>
+
+                        <Button x:Name="ADD"
+                                Text="ADD"
+                                MaximumWidthRequest="80"
+                                MaximumHeightRequest="48"
+                                Clicked="NoteClicked"
+                                TextColor="#E33780"
+                                BackgroundColor="#3A3A3A"
+                                Grid.Row="2"
+                                Grid.ColumnSpan="3"/>
+
+                       
+                </Grid>
+
+           </StackLayout>
+
+       </Frame>
+
+   </Grid>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelApp.SouthAmericaPage"
+             Title="SouthAmericaPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#3A3A3A">
+    
+   <StackLayout HorizontalOptions="Center">
+        <Grid HorizontalOptions="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="500" />
+                <RowDefinition Height="2" />
+                <RowDefinition Height="100" />
+
+
+            </Grid.RowDefinitions>
+            
+            <Label Text="SOUTH AMERICA" FontSize="Title" HorizontalOptions="Center" VerticalOptions="End" MaximumHeightRequest="60" Grid.Row="0" Grid.ColumnSpan="3" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="#E33780" />
+            <Label x:Name="VistedLabel"  FontSize="Header" HorizontalOptions="Center" MaximumHeightRequest="20" Grid.Row="1" Grid.ColumnSpan="3" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="#848484"/>
+
+            <ScrollView Grid.Row="2" HorizontalOptions="Center" MaximumHeightRequest="420" WidthRequest="380">
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="260" />
+                        <ColumnDefinition Width="80" />
+
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackLayout x:Name="CountryButtonsStackLayout" Grid.Column="0" Spacing="10" >
+                       
+
+                    </StackLayout>
+                    <StackLayout x:Name="AddButtonsStackLayout" Grid.Column="1" Spacing="10">
+                       
+
+                    </StackLayout>
+
+                </Grid>
+            
+            
+
+            </ScrollView>
+            <Rectangle HeightRequest="3" Fill="#848484" MaximumWidthRequest="320" Grid.Row="3" Grid.ColumnSpan="3" />
+
+            <Button Clicked="BackClicked" Text="BACK" CornerRadius="12" Grid.Row="4" Grid.ColumnSpan="3" MaximumWidthRequest="80" MaximumHeightRequest="48" TextColor="#565656" BackgroundColor="#E33780" TextTransform="Uppercase" Padding="0" />
+
+        </Grid>
+        
+
+    </StackLayout>
+</ContentPage>

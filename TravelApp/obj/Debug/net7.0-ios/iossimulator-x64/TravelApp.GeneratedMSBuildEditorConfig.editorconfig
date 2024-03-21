@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TravelApp
+build_property.ProjectDir = /Users/aleksandraspyra/Projects/TravelApp/TravelApp/
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/AfricaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.AfricaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/AfricaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/AfricaPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/AsiaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.AsiaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/AsiaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/AsiaPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/EuropePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.EuropePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/EuropePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/EuropePage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/NorthAmericaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.NorthAmericaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/NorthAmericaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/NorthAmericaPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/OceaniaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.OceaniaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/OceaniaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/OceaniaPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Continents/SouthAmericaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Continents.SouthAmericaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Continents/SouthAmericaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Continents/SouthAmericaPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/NoteInformationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.NoteInformationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NoteInformationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NoteInformationPage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/NotePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.NotePage.xaml
+build_metadata.AdditionalFiles.TargetPath = NotePage.xaml
+build_metadata.AdditionalFiles.RelativePath = NotePage.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/aleksandraspyra/Projects/TravelApp/TravelApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TravelApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/aleksandraspyra/Projects/TravelApp/TravelApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/TravelApp.app/Contents/MonoBundle/libe_sqlite3.dylib

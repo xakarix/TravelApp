@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0F0BA097-3339-446B-8B68-99B4E2004809}|Default">
+  <MonoDevelop.Ide.ItemProperties.TravelApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D31C1CA2-9A37-41C2-BB84-2DC7130ECF82" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D31C1CA2-9A37-41C2-BB84-2DC7130ECF82" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravelApp/Continents/AfricaPage.xaml.cs">
+    <Files>
+      <File FileName="TravelApp/Continents/AfricaPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TravelApp" expanded="True">
+            <Node name="TravelApp" expanded="True">
+              <Node name="NotePage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
+</Properties>

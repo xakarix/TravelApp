@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelApp.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#3A3A3A">
+
+    <ScrollView>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="2" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+
+
+            </Grid.RowDefinitions>
+         
+            <Label Text="TRAVEL APP" FontSize="Title" HorizontalOptions="Center" VerticalOptions="Center" MaximumHeightRequest="80" Grid.Row="0" Grid.ColumnSpan="2" FontAttributes="Bold" HorizontalTextAlignment="End" TextColor="#E33780" />
+            <Rectangle HeightRequest="2" Fill="#848484" MaximumWidthRequest="320" Grid.Row="1" Grid.ColumnSpan="2" />
+            <Image Source="world.png" Grid.Row="2" Grid.ColumnSpan="2"/>
+            
+            <Button Clicked="EuropeClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="3" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48" Text="EUROPE" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            <Button Clicked="AsiaClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="4" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48"  Text="Asia" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            <Button Clicked="AfricaClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="5" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48"  Text="Africa" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            <Button Clicked="NAmericaClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="6" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48"  Text="North America" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            <Button Clicked="SAmericaClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="7" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48"  Text="South America" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            <Button Clicked="OceaniaClicked" BackgroundColor="#565656" CornerRadius="12" Grid.Row="8" Grid.Column="0" MaximumWidthRequest="315" MaximumHeightRequest="48"  Text="Oceania" TextColor="#E33780" TextTransform="Uppercase" Padding="0" />
+            
+    
+
+        </Grid>
+
+    </ScrollView>
+
+</ContentPage>
